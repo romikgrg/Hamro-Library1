@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+        height: 100%;
+        width: 100%;
+        background: #1b203d;
+        position: absolute;
+}
+.form-box{
+    width: 380px;
+    height: 630px;
+    position: relative;
+    margin-left: 510px;
+    margin-top: 30px;
+    background: #fff;
+    padding: 5px;
+    border-radius: 2%;
+    overflow: hidden;
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px#ff61241f;
+    border-radius: 30px;
+}
+.toogle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+.social-icons{
+    margin: 30px auto;
+    text-align: center;
+}
+.social-icons img{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.input-group{
+    top: 150px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.send-button input[type="submit"]{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.logo{
+    width: 200px;
+    padding-top: 310px;
+    padding-left: 90px;
+    cursor: pointer;
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute; 
+}
+#login{
+    left: 50px;
+}
+#signup{
+    left: 450px ;
+}
+.nav{
+    width: 100%;
+    background-color: #fa2156;
+    display: block;
+}
+.nav-link{
+    margin-left: 50px;
+
+}
+.d-flex{
+    margin-left: 50px;
+}
+.btn3{
+    margin-left: 20px;
+    border-radius: 5px;
+    border-color: whitesmoke;
+    width: 50%;
+    background-color: #f75f37;
+    color: white;
+}
+.log{
+    margin-left: 80%;
+}
+
+ 
+.send-button1{
+    
+    font-size: 15px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+
+.dropdown-content a:hover {background-color: #fa2156;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color:#fa2156;}
+
+.nav-link:hover {background-color: #fa2156;}
+
+
+ .footer{
+    text-align: center;
+    font-size: 13px;
+ }
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family:system-ui;
+    background-color: #1b203d;
+}
+h1{
+    font-size: 50px;
+    font-family:Audiowide;
+}
+p{
+    font-size: 24px;
+    line-height: 50px;
+}
+.navbar{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:  #272c4a;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 2%;
+}
+.nav li a{
+    
+    color: #fff;
+
+}
+.logo {
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+    color: #fff;
+}
+img{
+    width: 20%;
+}
+a{
+    margin: 15px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover{
+    color: #000;
+}
+.banner-area{
+    position: relative;
+    background-image: url("images/l1.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-area, .port-area, .service-area, .contact-area{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+}
+.text-part{
+    width: 65%;
+    height: 80%;
+}        
+.about-area{
+    background-color: #1b203d;
+    color: #fff;
+}
+.port-area{
+    background-color:#272c4a;
+    color: #fff;
+}
+.service-area{
+    background-color: #1b203d;
+    color: #fff;
+}
+.contact-area{
+    background-color: #272c4a;
+    color: #fff;
+}
+span{
+    color: #f7403b;
+    margin-left: 10px;
+}

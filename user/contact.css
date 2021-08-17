@@ -1,0 +1,161 @@
+
+.Contact-title{
+	margin-top: 100px;
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 2s ease-in-out;
+	padding-left: 380px;
+}
+.Contact-title h1{
+	font-size: 32px;
+	line-height: 10px;
+	padding-left: 380px;
+}
+.Contact-title h2{
+	font-size: 16px;
+	padding-left: 280px;
+}
+form{
+	transition: all 2s ease-in-out;
+	padding-left: 550px;
+}
+.form-control{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 16px;
+
+}
+input{
+	height: 45px;
+}
+.btn{
+	background: linear-gradient(to right,#ff105f,#ffad06);
+	border-color: transparent;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+	width: 600px;
+}
+.btn:hover {
+	background-color: #fdc5d3;
+	cursor: pointer;
+	}
+.h3{
+	text-align: center;
+	padding-top: 250px;
+	font-size: 32px;
+	color: white;
+	transition: all 2s ease-in-out;
+}
+body{
+	margin:0px;
+	padding: 0px;
+	background-color:#1b203d;
+	overflow: hidden;
+	font-family: system-ui;
+}
+.clearfix{
+	clear: both;
+}
+.logo{
+	margin: 0px;
+	margin-left: 28px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 30px;
+}
+.logo span{
+	color: #f7403b;
+}
+.sidenav {
+  height: 100%;
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #272c4a;
+  overflow: hidden;
+  transition: 0.5s;
+  padding-top: 30px;
+}
+.sidenav a {
+  padding: 15px 8px 15px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+  background-color:#f75f37;
+}
+.sidenav{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+  margin-left: 300px;
+}
+.head{
+	padding:20px;
+}
+.col-div-6{
+	width: 50%;
+	float: left;
+}
+.profile{
+	display: inline-block;
+	float: right;
+	width: 160px;
+}
+.pro-img{
+	float: left;
+	width: 40px;
+	margin-top: 5px;
+}
+.profile p{
+	color: #f75f37;
+	font-weight: 500;
+	margin-left: 55px;
+	margin-top: 10px;
+	font-size: 13.5px;
+}
+.profile p span{
+	font-weight: 400;
+    font-size: 12px;
+    display: block;
+    color: #8e8b8b;
+}
+.nav2{
+	display: none;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
